@@ -1,0 +1,6 @@
+spring.datasource.platform=postgresql
+db.num=1
+db.url.0=jdbc:postgresql://127.0.0.1:5432/nacos?tcpKeepAlive=true&reWriteBatchedInserts=true&ApplicationName=nacos_java
+db.user=postgres
+db.password=123456
+db.pool.config.driverClassName=org.postgresql.Driver
